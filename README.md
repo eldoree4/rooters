@@ -48,3 +48,61 @@ Ultimate Android Rooting Tool adalah alat canggih yang dirancang khusus untuk Te
 2. **Update package** Termux:
    ```bash
    pkg update && pkg upgrade
+
+
+   🚀 Penggunaan
+Hubungkan perangkat target menggunakan kabel OTG
+
+Aktifkan USB Debugging pada perangkat target:
+
+Pergi ke Settings > About Phone
+
+Ketuk "Build Number" 7 kali untuk mengaktifkan Developer Options
+
+Pergi ke Developer Options dan aktifkan "USB Debugging"
+
+Jalankan tool:
+
+bash
+cd ~
+./ultimate-root.sh
+Pilih mode yang diinginkan:
+
+Mode Otomatis (Rekomendasi untuk pemula)
+
+Mode Semi-Otomatis (Bahan diunduh otomatis)
+
+Mode Manual (Untuk pengguna berpengalaman)
+
+Pemulihan Darurat (Untuk perangkat brick)
+
+🔧 Mode Operasi
+1. Mode Otomatis Lengkap
+Deteksi otomatis perangkat
+
+Unduh semua bahan yang diperlukan
+
+Lakukan safety checks
+
+Eksekusi proses rooting secara otomatis
+
+2. Mode Semi-Otomatis
+Deteksi perangkat dan unduh bahan
+
+Berikan instruksi langkah demi langkah
+
+Pengguna melakukan flashing manual
+
+3. Mode Manual
+Untuk pengguna berpengalaman
+
+Akses penuh ke semua tools
+
+Tanggung jawab sepenuhnya pada pengguna
+
+4. Mode Pemulihan Darurat
+Khusus untuk perangkat brick/bootloop
+
+Coba pulihkan menggunakan backup
+
+Panduan kombinasi tombol untuk berbagai merek
